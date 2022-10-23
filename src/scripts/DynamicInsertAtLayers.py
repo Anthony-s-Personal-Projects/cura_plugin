@@ -5,7 +5,7 @@
 # Version - V1.0
 # Main Feature: To allow user to insert dynamic G-Code as a function of layer numbers (up to the third order)
 # Email to report issues: anthonyma24.development@gmail.com
-# Github repo:
+# Github repo: https://github.com/anthonyma24/cura_plugin.git
 
 from ..Script import Script
 
