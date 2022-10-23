@@ -12,7 +12,7 @@
 ### Installation
 
 ------------------------------------------------------
-<details><summary>How to install the plugin</summary>
+<details><summary>How to install the plugin manually</summary>
 
 - Find the installation folder of cura. This is typically found at "C:\Program Files\Ultimaker Cura 4.8.0"
 - Navigate to the folder ".\plugins\PostProcessingPlugin\scripts"
