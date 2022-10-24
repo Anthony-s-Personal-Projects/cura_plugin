@@ -110,7 +110,11 @@ class DynamicInsertAtLayers(Script):
 
     def _dynamic_gcode_generator(self, pre_code, post_code, layer_number, command, action, const, first, second, third):
 
-        value = const + first * layer_number + second * layer_number ** 2 + third * layer_number ** 3
+        value = round(const + first * layer_number + second * layer_number ** 2 + third * layer_number ** 3, 2)
+
+        if action == 'S':
+            value = int(value)
+
         insert_gcode = '\n;this is inserted dynamic gcode\n' \
                        + command + ' ' \
                        + action + str(value) + '\n\n'
